@@ -43,7 +43,7 @@ export NEW_RELIC_REGION="US"   # or "EU"
 
 ## Steps
 
-1. Configure environment or set values in lab0/main.tf
+1. Configure environment or set values in main.tf
 1. Run `terraform init`
 1. Run `terraform plan`
 
