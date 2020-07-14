@@ -1,6 +1,9 @@
 #
 # Alert Condition
 #
+# The newrelic_alert_condition resource requires an Admin API key
+# to be set, the NRQL alert condtion does not.
+#
 # The following is an example APM Application Alert Condtion.
 #
 resource "newrelic_alert_condition" "alert_condition_name" {

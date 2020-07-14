@@ -12,8 +12,9 @@ To get the most value out of the following, you should have a basic understandin
 
 ## References
 
+* [New Relic Provider for Terraform Repo](https://github.com/newrelic/terraform-provider-newrelic)
 * [New Relic Provider for Terraform documentation](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs)
-
+* [Nerd Days 2020 Presentation Slide deck](docs/Reducing-Toil-With-Terraform.pdf)
 
 
 # Initial Setup
@@ -61,9 +62,9 @@ before moving on.
 
 * [Lab 1](lab1/README.md): Entities
 * [Lab 2](lab2/README.md): Alert Policies
-* [Lab 3](lab3/README.md): Alert Conditions
+* [Lab 3](lab3/README.md): Alert Conditions (Admin API Key required)
 * [Lab 4](lab4/README.md): Entity Tags
-* [Lab 5](lab5/README.md): Dashboards
+* [Lab 5](lab5/README.md): Dashboards (Admin API key required)
 
 
 
