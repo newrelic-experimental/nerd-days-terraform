@@ -4,7 +4,7 @@
 
 To get the most value out of the following, you should have a basic understanding of Terraform (HCL semantics are not covered), and a New Relic account that you can test with.
 
-* Terraform > 0.12.28
+* Terraform > 0.13.0
 * New Relic Account
   * User with Admin role
   * Application reporting to New Relic
@@ -38,7 +38,6 @@ It is recommended to store secrets in Environmental variables for these labs ins
 ```bash
 export NEW_RELIC_ACCOUNT_ID=
 export NEW_RELIC_API_KEY=
-export NEW_RELIC_ADMIN_API_KEY=
 export NEW_RELIC_REGION="US"   # or "EU"
 ```
 
@@ -62,9 +61,9 @@ before moving on.
 
 * [Lab 1](lab1/README.md): Entities
 * [Lab 2](lab2/README.md): Alert Policies
-* [Lab 3](lab3/README.md): Alert Conditions (Admin API Key required)
+* [Lab 3](lab3/README.md): Alert Conditions
 * [Lab 4](lab4/README.md): Entity Tags
-* [Lab 5](lab5/README.md): Dashboards (Admin API key required)
+* [Lab 5](lab5/README.md): Dashboards
 
 
 

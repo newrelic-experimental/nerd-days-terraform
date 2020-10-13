@@ -4,7 +4,6 @@
 
 * Previous labs completed
 * APM Application reporting to New Relic
-* **Admin API Key** for `newrelic_alert_condtion`
 
 ## Setup
 

@@ -1,6 +1,9 @@
 terraform {
   required_providers {
-    newrelic = "> 2.1"
+    newrelic = {
+      source  = "newrelic/newrelic"
+      version = ">= 2.12.0"
+    }
   }
 }
 
@@ -8,7 +11,6 @@ terraform {
 provider "newrelic" {
   #account_id    = <Your Account ID>       # Numeric account ID, Or set NEW_RELIC_ACCOUNT_ID
   #api_key       = <Your Personal API Key> # usually prefixed with 'NRAK', Or set NEW_RELIC_API_KEY
-  #admin_api_key = <Your Admin API Key>    # usually prefixed with 'NRAA', Or set NEW_RELIC_ADMIN_API_KEY
   #region        = "US"                    # Valid regions are US and EU, Or set NEW_RELIC_REGION
 }
 
